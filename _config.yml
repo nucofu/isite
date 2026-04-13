@@ -16,14 +16,14 @@ timezone: Asia/Jakarta
 
 title: nucofu # the main title
 
-tagline: be flexible in small, but never be small in vast # it will display as the subtitle
+tagline: "be flexible in small, but never be small in vast" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   my personal blog.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://nucofu.github.io/isite"
+url: "https://nucofu.github.io"
 
 github:
   username: nucofu # change to your GitHub username
@@ -99,7 +99,7 @@ theme_mode: dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/img/favicons/web-app-manifest-512x512.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -151,7 +151,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://nucofu.github.io/isite"
+baseurl: "/isite"
 
 # ------------ The following options are not recommended to be modified ------------------
 
